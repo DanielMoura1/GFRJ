@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <button onClick={()=> navigate("/quiz")}>gfrj</button>
+      <button onClick={()=> navigate("/quiz")}>QUIZ</button>
       <div>
           <button onClick={()=>selecionarVideo('lI92RROPZEY')} >teste1</button>
           <button onClick={()=>selecionarVideo('VlTv6o_Rtlc')}>teste2</button>
