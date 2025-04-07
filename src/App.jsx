@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  const navigate = useNavigate();
   const [video, setVideo] = useState('lI92RROPZEY')
 
   function selecionarVideo (id){
@@ -12,6 +14,7 @@ function App() {
 
   return (
     <>
+      <button onClick={()=> navigate("/quiz")}>gfrj</button>
       <div>
           <button onClick={()=>selecionarVideo('lI92RROPZEY')} >teste1</button>
           <button onClick={()=>selecionarVideo('VlTv6o_Rtlc')}>teste2</button>
