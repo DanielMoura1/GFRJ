@@ -37,7 +37,7 @@ function Quiz() {
 
   
   return (
-    <>
+    <div>
       <div className='perguntas'>
           <p>{pergunta}</p>
       </div>
@@ -56,7 +56,7 @@ function Quiz() {
       <div className='base'>
 
       </div>
-    </>
+    </div>
   )
 }
 

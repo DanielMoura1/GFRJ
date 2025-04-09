@@ -45,6 +45,7 @@ body {
   width: 100vw;
   height: 30vh;
   background: #f9f9f9;
+  color: #000;
 }
 
 .none{
@@ -58,6 +59,7 @@ body {
   width: 100vw;
   height: 30vh;
   background: #057D7D;
+  background: linear-gradient(to right, #ffffff, #057D7D);
 }
 
 h1 {
