@@ -16,10 +16,11 @@ function Quiz() {
     const [continuar,setContinuar]=useState(true)
 
     function responder(r){
+
         if(numeroPergunta >8){
             setContinuar(false)
 
-        }else if(r){
+        }if(r){
             setAcertos(acertos+1)
       
         }else{

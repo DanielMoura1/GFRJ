@@ -44,7 +44,7 @@ function App() {
 
         <div className='quadroB'>
           <p>{texto}</p>
-          <img src={imagem} alt="" />
+          <img className='tam' src={imagem} alt="" />
         </div>
         
      
