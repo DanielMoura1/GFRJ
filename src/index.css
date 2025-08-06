@@ -30,6 +30,94 @@ body {
   min-height: 100vh;
   background: #057D7D;
 }
+.logos {
+  
+
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+
+ 
+}
+
+.logos h1 {
+  color: white;
+  font-size: 2.5rem;       /* tamanho grande */
+  font-weight: 700;        /* mais grosso */
+  letter-spacing: 3px;     /* espaçamento entre letras */
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8); /* deixa texto visível */
+  margin: 0;               /* remove margem padrão */
+}
+
+.menu > button {
+  background: linear-gradient(90deg, #00bcd4, #057D7D);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  padding: 0.7em 1.8em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.menu > button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  filter: brightness(1.1);
+}
+
+/* Container dos botões de vídeo */
+.menu div {
+  margin-top: 0.5rem; 
+  padding: 0.8rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+
+  border: 3px solid #057D7D;       /* cor e espessura da borda */
+  border-radius: 15px;             /* borda arredondada */
+  background: rgba(255,255,255,0.1); /* fundo translúcido */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* sombra */
+  backdrop-filter: blur(4px);      /* efeito vidro fosco */
+  width: fit-content;              /* se ajusta ao conteúdo */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+/* deixa o botão quiz colado na div */
+
+/* Botões de vídeo */
+.menu div button {
+  background: white;
+  color: #057D7D;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6em 1.3em;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.menu div button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  background: #f0f0f0;
+}
+
+
 .perguntas{
   background: #057D7D;
   width: 100vw;
@@ -87,6 +175,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.quadroB{
+  background: white;
+  border-radius: 10px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
