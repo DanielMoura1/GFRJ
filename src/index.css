@@ -56,6 +56,9 @@ body {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.8); /* deixa texto visível */
   margin: 0;               /* remove margem padrão */
 }
+.menu{
+  margin-top: 50px;
+}
 
 .menu > button {
   background: linear-gradient(90deg, #00bcd4, #057D7D);
