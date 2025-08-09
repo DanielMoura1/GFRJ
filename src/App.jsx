@@ -29,7 +29,7 @@ function App() {
         <button onClick={()=> navigate("/quiz")}>QUIZ</button>
           <div>
               <button onClick={()=>selecionarVideo('wd3SnBGkOqc',textos[0].t1,textos[0].ig)} > Record</button>
-              <button onClick={()=>selecionarVideo('wNpjdIeG51I?start=21660&end=21720',textos[1].t1,textos[1].ig)}>Lamçamento</button>
+              <button onClick={()=>selecionarVideo('wNpjdIeG51I?start=21660&end=21720',textos[1].t1,textos[1].ig)}>Lançamento</button>
               <button onClick={()=>selecionarVideo('5ubBs_rhqGY',textos[2].t1,textos[2].ig)}>Teste</button>
               <button onClick={()=>selecionarVideo('cF3qe4ZF6oM',textos[3].t1,textos[3].ig)}> Bertola-1</button>
               
