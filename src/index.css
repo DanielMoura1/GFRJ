@@ -220,6 +220,19 @@ button:focus-visible {
 
 /* --- AJUSTES PARA CELULAR --- */
 @media (max-width: 600px) {
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Garante que imagens, vídeos e iframes não passem da largura da tela */
+img, iframe, video {
+  max-width: 100%;
+  height: auto;
+}
   .logos h1 {
     font-size: 1.5rem;
     letter-spacing: 1px;
@@ -253,3 +266,5 @@ button:focus-visible {
     padding: 0.6em;
   }
 }
+  
+
