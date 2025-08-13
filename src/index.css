@@ -152,7 +152,35 @@ a:hover {
   padding: 1rem;
   border-radius: 5px;
 }
+.respostas2 {
+  width: 100%;
+  min-height: 30vh;
+  background: linear-gradient(135deg, #E0F4F4, #ffffff);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease-in-out;
+}
 
+.respostas2 p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.respostas2 p:first-child {
+  color: #28a745; /* verde para acertos */
+}
+
+.respostas2 p:last-child {
+  color: #dc3545; /* vermelho para erros */
+}
 .none {
   display: none;
 }

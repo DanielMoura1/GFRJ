@@ -49,7 +49,7 @@ function Quiz() {
         <button className='op'  onClick={()=>responder(quiz[numeroPergunta].res4)}>{resposta4}</button>
         
       </div>
-      <div className={continuar ? 'none':'respostas'}>
+      <div className={continuar ? 'none':'respostas2'}>
         <p>acertou : {acertos}</p>
         <p>errou : {erros}</p>
 
