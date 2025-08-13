@@ -50,8 +50,8 @@ function Quiz() {
         
       </div>
       <div className={continuar ? 'none':'respostas2'}>
-        <p>acertou : {acertos}</p>
-        <p>errou : {erros}</p>
+        <p>Acertou : {acertos}</p>
+        <p>Errou : {erros}</p>
 
       </div>
       <div className='base'>
